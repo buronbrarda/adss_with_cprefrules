@@ -11,7 +11,7 @@ Also, for running our application in Windows it is required to have the SWI-Prol
 
 # Launch the application
 
-After downloading and extracting the file app.zip from our latest release (https://github.com/buronbrarda/madf_with_dprefrules/blob/multi-agent/app.zip), you can launch the application executing the file app.jar using your pre-installed JVM (see the explanation above to verify if you meet all the requirements to execute the application). Also, you can run the application from your command line console excuting > <JRE7 PATH>/bin/java.exe -jar app.jar.
+After downloading and extracting the file app.zip from our latest release (https://github.com/buronbrarda/madf_with_dprefrules/blob/autonomous_vehicles/app.zip), you can launch the application executing the file app.jar using your pre-installed JVM (see the explanation above to verify if you meet all the requirements to execute the application). Also, you can run the application from your command line console excuting > <JRE7 PATH>/bin/java.exe -jar app.jar.
 
 In order to try our application with a default example you can press on Load example, and then press Run. Then, on the right side of the window the selected alternatives for the loaded example will be shown, as well as, other statistical results like the reasoning time, selection time, and argument amount. For more details about this stats you can consult this article: https://doi.org/10.1016/j.eswa.2019.02.021.
 
