@@ -1,6 +1,6 @@
 # Multi-agent Argumentation-based Decision Framework with Defeasible Preference Rules (MADF with Dpref-rules)
 
-This project is an implementation of a research line carried out by Martín E. Buron Brarda, Luciano H. Tamargo and Alejandro J. García, all of them members of the Institute for Computer Science and Engineering (ICIC, UNS-CONICET).
+This project is an implementation of a research line carried out by Matías E. Gandolfo, Martín E. Buron Brarda, Luciano H. Tamargo and Alejandro J. García, all of them members of the Institute for Computer Science and Engineering (ICIC, UNS-CONICET).
 
 The application contains two main modules: An interface for the users (developed in Java) and the application core (developed in SWI-Prolog). So, for running our application you will need to install the Java Virtual Machine and the SWI-Prolog interpreter into your computer. The poryect have been tested on Windows 10 with Java Runtime Environment (JRE) 7 and SWI-Prolog 7.6.4 You can download the JRE 7 (64 bits) from: https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html and SWI-Prolog 7.6.4 (64 bits) from: https://www.swi-prolog.org/download/stable?show=all.
 
