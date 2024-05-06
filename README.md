@@ -1,10 +1,10 @@
 # Multi-agent Argumentation-based Decision Framework with Defeasible Preference Rules (MADF with Dpref-rules)
 
-This project is an implementation of a research line carried out by Matías E. Gandolfo, Martín E. Buron Brarda, Luciano H. Tamargo and Alejandro J. García, all of them members of the Institute for Computer Science and Engineering (ICIC, UNS-CONICET).
+This project is an implementation of a research line carried out by Matías E. Gandolfo, Martín E. Buron Brarda, Luciano H. Tamargo, and Alejandro J. García, all of them members of the Department of Computer Science and Engineering (DCIC), and the Institute for Computer Science and Engineering (ICIC, UNS-CONICET), Universidad Nacional del Sur, Bahía Blanca, Argentina.
 
 The application contains two main modules: An interface for the users (developed in Java) and the application core (developed in SWI-Prolog). So, for running our application you will need to install the Java Virtual Machine and the SWI-Prolog interpreter into your computer. The poryect have been tested on Windows 10 with Java Runtime Environment (JRE) 7 and SWI-Prolog 7.6.4 You can download the JRE 7 (64 bits) from: https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html and SWI-Prolog 7.6.4 (64 bits) from: https://www.swi-prolog.org/download/stable?show=all.
 
-We have tested our application only on machines running Windows. However, since all the the code that we have developed is executed via-interpreter, none major problems should appear for running our application in different operative systems (Linux, MAC OS, etc.). You can download the whole code, or just download the application that was built for Windows x64.
+We have tested our application only on machines running Windows. However, since all the code that we have developed is executed via an interpreter, none major problems should appear for running our application in different operative systems (Linux, MAC OS, etc.). You can download the whole code, or just download the application that was built for Windows x64.
 
 Also, for running our application in Windows it is required to have the SWI-Prolog '/bin' directory added to the %PATH% environment variable. In the following link, there is an instruction manual to do this: https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables.
 
