@@ -1,0 +1,10 @@
+id;rule
+r1;better(X,Y,days) ==> pref(X,Y)
+r2;better(X,Y,entrmnt) ==> pref(X,Y)
+r3;better(X,Y,service) ==> pref(X,Y)
+r4;worse(X,Y,entrmnt), max_dist(X,Y,entrmnt,1), better(X,Y,days), min_dist(X,Y,days,3) ==> pref(X,Y)
+r5;worse(X,Y,entrmnt), max_dist(X,Y,entrmnt,1), better(X,Y,service), min_dist(X,Y,service,2) ==> pref(X,Y)
+r6;equal(X,Y,service), better(X,Y,entrmnt) ==> pref(X,Y)
+r7;equal(X,Y,service), better(X,Y,days) ==> pref(X,Y)
+r8;worse(X,Y,days), min(X,days,14), better(X,Y,entrmnt), min(X,entrmnt,reg), better(X,Y,service) ==> pref(X,Y)
+r9;equal(X,Y,service), better(X,Y,entrmnt), worse(X,Y,days), max_dist(X,Y,days,3) ==> pref(X,Y)

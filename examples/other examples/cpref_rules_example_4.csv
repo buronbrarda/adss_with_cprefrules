@@ -1,0 +1,6 @@
+id;rule
+r1;better(X,Y,days) ==> pref(X,Y)
+r2;better(X,Y,entrmnt) ==> pref(X,Y)
+r3;better(X,Y,service) ==> pref(X,Y)
+r6;equal(X,Y,service), better(X,Y,entrmnt) ==> pref(X,Y)
+r7;equal(X,Y,service), better(X,Y,days) ==> pref(X,Y)

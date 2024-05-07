@@ -1,4 +1,4 @@
 criterion;values
-days;between(1,30)
-entrmnt;[vbad,bad,reg,good,vgood]
-service;[vbad,bad,reg,good,vgood]
+passengers;between(0,+inf)
+urgency;[none,low,medium,high,critical]
+arrival;between(+inf,0)

@@ -1,6 +1,6 @@
 priority_order
-carol > mom
-carol > dad
-carol > tom
-mom > tom
-dad > tom
+ambulances > buses
+ambulances > taxis
+police > buses
+police > taxis
+buses > taxis
